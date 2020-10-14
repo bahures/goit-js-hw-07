@@ -26,8 +26,8 @@ const createImageContent = (images) => {
   listItemImage.src = images.url;
   listItemImage.alt = images.alt;
   listItem.appendChild(listItemImage);
-  const listRootRef = document.querySelector("#gallery");
-  listRootRef.appendChild(listItem);
+  // const listRootRef = document.querySelector("#gallery");
+  // listRootRef.appendChild(listItem);
 
   return listItem;
 };
